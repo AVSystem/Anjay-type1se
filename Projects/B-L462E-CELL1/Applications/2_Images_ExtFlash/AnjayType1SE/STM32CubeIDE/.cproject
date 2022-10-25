@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100" name="Debug" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug" postbuildStep="&quot;../postbuild.sh&quot;">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug.47302030" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.15053626" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32L462REYx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1720258871" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1948387874" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.200096209" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1097169231" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1124781001" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="genericBoard" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1968529770" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.5 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || STM32L462REYx || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/pthread | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/net | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/servers | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/access_control | ../../Drivers/STM32L4xx_HAL_Driver/Inc | ../../Stack/App | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/anjay | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/security | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/arch | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/server | ../../Drivers/X-CUBE-CELLULAR Modem support/TYPE1SC/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/downloader | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp/polarssl | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/compat | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/priv | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/prot | ../../Drivers/CMSIS/Include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/utils | ../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/sys | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/http | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/mbedtls | ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/include/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/unit | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/io | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/commons | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/coap | ../../Core/Inc | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/coap | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/observe | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/options | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/async | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/attr_storage | ../../Drivers/CMSIS/Device/ST/STM32L4xx/Include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/atomic_spinlock | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/stdc | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/dm | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/openssl | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/apps | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/arpa | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream/md5 | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/streaming | ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/udp | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/mbedtls | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/library | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/compat/posix | ../../Middlewares/Third_Party/FreeRTOS/Source/include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules/dm | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cmd/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/TYPE1SC/AT_modem_type1sc/Inc ||  ||  || USE_SOCKETS_TYPE=USE_SOCKETS_LWIP | STM32L462xx | USE_HAL_DRIVER | NDEBUG | MBEDTLS_CONFIG_FILE=&lt;mbedtls.h&gt; ||  ||  ||  ||  || ${workspace_loc:/${ProjName}/STM32L462REYX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || " valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary.1501556248" name="Convert to binary file (-O binary)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.1826749549" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/AnjayType1SE}/Debug" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.192249361" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.721716309" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.799825973" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols.222511649" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1774149311" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.800958048" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1459163565" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1660690610" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.os" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.134316486" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32L462xx"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&lt;mbedtls.h&gt;"/>
+									<listOptionValue builtIn="false" value="USE_SOCKETS_TYPE=USE_SOCKETS_LWIP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1124850734" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../Drivers/BSP/B-L462E-CELL1"/>
+									<listOptionValue builtIn="false" value="../../../../../../../Drivers/BSP/Components/ssd1315"/>
+									<listOptionValue builtIn="false" value="../../../../../../../Drivers/BSP/Components/w25q80ew"/>
+									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Core/Inc"/>
+									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+									<listOptionValue builtIn="false" value="../../Drivers/STM32L4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/hts221"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/lis3mdl"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/lps22hb"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/lps22hh"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/lsm303agr"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/lsm6dsl"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/mfxstm32l152"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/mx25r6435f"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/ssd1315"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/st7789h2"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/w25q80ew"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/Components/Common"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/B-L462E-CELL1"/>
+									<listOptionValue builtIn="false" value="../../Drivers/BSP/X_STMOD_PLUS_MODEMS/TYPE1SC/AT_modem_type1sc/Inc"/>
+									<listOptionValue builtIn="false" value="../../Stack/App"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/include/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/library"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/compat"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/pthread"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/atomic_spinlock"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/utils"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/compat/posix"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/mbedtls"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/http"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream/md5"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/openssl"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/mbedtls"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/unit"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/streaming"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/udp"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/options"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/async"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/anjay"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/commons"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/coap"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules/dm"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/attr_storage"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/server"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/security"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/access_control"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/dm"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/coap"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/downloader"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/servers"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/io"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/observe"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/stdc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/sys"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/net"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/arpa"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/prot"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/apps"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/priv"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp/polarssl"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/arch"/>
+									<listOptionValue builtIn="false" value="../../../2_Images_SECoreBin/Inc"/>
+									<listOptionValue builtIn="false" value="../../../2_Images_SBSFU/SBSFU/App"/>
+									<listOptionValue builtIn="false" value="../../../Linker_Common/STM32CubeIDE"/>
+									<listOptionValue builtIn="false" value="../../Drivers/X-CUBE-CELLULAR Modem support/TYPE1SC/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cmd/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/TYPE1SC/AT_modem_type1sc/Inc"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1530720049" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
+									<listOptionValue builtIn="false" value="-fcommon"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.fstackusage.975963266" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.fstackusage" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.25956440" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.169514939" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.991997779" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.867743712" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS} ${FLAGS}" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1776769077" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.471630627" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}/STM32L462REYX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories.1388219137" name="Library search path (-L)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../../2_Images_SBSFU/STM32CubeIDE/Debug"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.otherflags.209692326" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.otherflags" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Xlinker -L ../../../Linker_Common/STM32CubeIDE"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.458219862" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1355535202" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.1681286076" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.779974477" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.2018294013" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.1100752510" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.1194004935" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.1120053393" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.434881706" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.497237958" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100.1195253799" name="postbuild.sh" rcbsApplicability="disable" resourcePath="postbuild.sh" toolsToInvoke=""/>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.1992432643" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.201211923" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32L462REYx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1402356270" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1944476776" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.65349297" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1906950650" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.970452789" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="genericBoard" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.57938694" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.5 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || STM32L462REYx || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/pthread | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/net | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/servers | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/access_control | ../../Drivers/STM32L4xx_HAL_Driver/Inc | ../../Stack/App | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/anjay | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/security | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/arch | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/server | ../../Drivers/X-CUBE-CELLULAR Modem support/TYPE1SC/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/downloader | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp/polarssl | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/compat | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/priv | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/prot | ../../Drivers/CMSIS/Include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/utils | ../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/sys | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/http | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/mbedtls | ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/include/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/unit | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/io | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/commons | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/coap | ../../Core/Inc | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/coap | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/include_public/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/observe | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/options | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/async | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/attr_storage | ../../Drivers/CMSIS/Device/ST/STM32L4xx/Include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/atomic_spinlock | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/stdc | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/dm | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/openssl | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/apps | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/arpa | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream/md5 | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/streaming | ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/udp | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/mbedtls | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/library | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/compat/posix | ../../Middlewares/Third_Party/FreeRTOS/Source/include | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc/ | ../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules/dm | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cmd/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc | ../../Middlewares/ST/X-CUBE-CELLULAR/TYPE1SC/AT_modem_type1sc/Inc ||  ||  || USE_SOCKETS_TYPE=USE_SOCKETS_LWIP | STM32L462xx | USE_HAL_DRIVER | NDEBUG | MBEDTLS_CONFIG_FILE=&lt;mbedtls.h&gt; ||  ||  ||  ||  || ${workspace_loc:/${ProjName}/STM32L462REYX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || " valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.52584962" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/AnjayType1SE}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1224670335" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.725462202" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.896791827" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1231353637" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1981680088" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1461826758" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.854997068" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.os" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1598401703" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32L462xx"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&lt;mbedtls.h&gt;"/>
+									<listOptionValue builtIn="false" value="USE_SOCKETS_TYPE=USE_SOCKETS_LWIP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1487206657" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../Core/Inc"/>
+									<listOptionValue builtIn="false" value="../../Stack/App"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/include/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/mbedtls/mbedtls/library"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/include_public/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/compat"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/pthread"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/compat/threading/atomic_spinlock"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/utils"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/compat/posix"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/net/mbedtls"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/http"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream/md5"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/stream"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/openssl"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/crypto/mbedtls"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_commons/src/unit"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/streaming"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/udp"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/options"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/deps/avs_coap/src/async"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/anjay"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/commons"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/include_public/avsystem/coap"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/anjay_modules/dm"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/attr_storage"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/server"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/security"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/modules/access_control"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/dm"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/coap"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/downloader"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/servers"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/io"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/src/core/observe"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/Anjay/client/Src/compat/threading"/>
+									<listOptionValue builtIn="false" value="../../Drivers/X-CUBE-CELLULAR Modem support/TYPE1SC/Inc/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/stdc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/sys"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/net"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/compat/posix/arpa"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/prot"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/apps"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/lwip/priv"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/src/include/netif/ppp/polarssl"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/AVSystem_LwM2M_Stack/LwIP/LwIP/system/arch"/>
+									<listOptionValue builtIn="false" value="../../Drivers/STM32L4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cellular_Ctrl/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Com/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Interface/Cmd/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Data_Cache/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Ipc/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Trace/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Cellular_Service/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/PPPosif/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Error/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Runtime_Library/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/AT_Core/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/STM32_Cellular/Core/Rtosal/Inc"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/X-CUBE-CELLULAR/TYPE1SC/AT_modem_type1sc/Inc"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.870626936" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.729439643" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.536129792" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.2006966230" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.value.os" valueType="enumerated"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.2102653755" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.1506745707" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" value="${workspace_loc:/${ProjName}/STM32L462REYX_FLASH.ld}" valueType="string"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.1675626167" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.512140081" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.578613635" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.2011756197" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.1747693798" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.18956835" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.491988442" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.1572336164" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.419813618" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.95315313" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="AnjayType1SE.null.1814659103" name="AnjayType1SE"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1785539571.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1981680088;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.870626936">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.688165100.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.800958048;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.25956440">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Multiple configurations">
+			<resource resourceType="PROJECT" workspacePath="/AnjayType1SE"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/AnjayType1SE"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/AnjayType1SE"/>
+		</configuration>
+	</storageModule>
+</cproject>
