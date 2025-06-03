@@ -1,5 +1,13 @@
 # Anjay Type1SE FOTA demo
 
+## ⚠️ Archived Repository
+
+**This repository is no longer actively maintained by the team. It is provided as is for reference purposes only.**
+**We do not accept issues, pull requests, or provide support.**
+**If you are still interested in this project or have questions, feel free to contact us. https://avsystem.com/contact/**
+
+---
+
 Anjay client with FOTA for Murata TypeSE1 module that can be found on B-L462E-CELL1 development kit.
 
 This example is built upon Secure Boot and Secure Firmware Update Demo Application provided by STMicroelectronics
